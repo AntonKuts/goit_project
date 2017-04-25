@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+}
+
+#wrapper {
+  background-image: url("../images/bg.png");
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 960px;
+  text-align: center;
+  margin:auto;
+}
+
+.hero {
+  height: 660px;
+}
+
+.logo {
+  float: left;
+  display: inline-table;
+  /*margin-left: 231px;
+  margin-top: 44px;*/
+}
+
+h1 {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+}
+
+h4 {
+  font-size: 66px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.navigation {
+  padding: 10px 0;
+}
+.navigation::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.nav {
+  margin: 0;
+  float: right;
+}
+.nav li a {
+  line-height: 28px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  font: Brandon Grotesque;
+  text-decoration:none;
+}
+.nav li {
+  display: inline-block;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.content {
+  margin-top: 150px;
+
+}
+
+
+button {
+    display: inline-block;
+    font-size: 23px;
+    width: 240px;
+    height: 65px;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: bold;
+}
