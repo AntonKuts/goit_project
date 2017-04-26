@@ -12,30 +12,19 @@ body {
   text-align: center;
   margin:auto;
 }
-
 .hero {
-  height: 660px;
+  height: 620px;
+  /*overflow: hidden;*/
 }
-
 .logo {
   float: left;
-  display: inline-table;
+  /*background-color: #555;*/
+  /*display: inline-table;*/
   /*margin-left: 231px;
-  margin-top: 44px;*/
-}
-
-h1 {
-  font-size: 32px;
-  color: rgb(255, 255, 255);
-}
-
-h4 {
-  font-size: 66px;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
+margin-top: 44px;*/
 }
 .navigation {
-  padding: 10px 0;
+  padding: 20px 0;
 }
 .navigation::after {
   content: "";
@@ -50,33 +39,40 @@ h4 {
   line-height: 28px;
   font-size: 18px;
   color: rgb(255, 255, 255);
-  font: Brandon Grotesque;
+  font-family: "Brandon Grotesque";
   text-decoration:none;
 }
 .nav li {
   display: inline-block;
   margin-left: 20px;
-  text-decoration: none;
 }
 
 .content {
   margin-top: 150px;
-
 }
 
+h1 {
+  font-size: 32px;
+  color: #ffffff;
+}
+h4 {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
 
 button {
-    display: inline-block;
+    /*display: inline-block;*/
     font-size: 23px;
     width: 240px;
     height: 65px;
-    padding: 8px;
+    /*padding: 8px;*/
     color: #fff;
     border: 1px solid #fff;
     border-radius: 5px;
-    text-align: center;
     outline: none;
-    text-decoration: none;
+    /*text-decoration: none;*/
     background-color: transparent;
     font-weight: bold;
 }
